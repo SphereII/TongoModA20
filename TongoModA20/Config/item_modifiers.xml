@@ -1,0 +1,162 @@
+<raiz>
+
+
+	<!-- NEW MODS LIST -->
+	
+	
+	<append xpath="/item_modifiers">
+	
+	<item_modifier name="modSniperwolfBraceletTM" installable_tags="armorHands" modifier_tags="" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="modSniperwolfBraceletTM"/>
+		<property name="DescriptionKey" value="modSniperwolfBraceletTMDesc"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="UnlockedBy" value="modSniperwolfBraceletTMSchematic"/> 
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods,Moddet"/>
+		<property name="EconomicValue" value="100"/>
+		<effect_group tiered="false">
+			<passive_effect name="AttributeLevel" tags="attPerception" operation="base_add" value="1"/>
+		</effect_group>
+	</item_modifier>
+
+	<item_modifier name="modRagnarBraceletTM" installable_tags="armorHands" modifier_tags="" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="modRagnarBraceletTM"/>
+		<property name="DescriptionKey" value="modRagnarBraceletTMDesc"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="UnlockedBy" value="modRagnarBraceletTMSchematic"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods,Moddet"/>
+		<property name="EconomicValue" value="100"/>
+		<effect_group tiered="false">
+			<passive_effect name="AttributeLevel" tags="attStrength" operation="base_add" value="1"/>
+		</effect_group>
+	</item_modifier>
+		
+	<item_modifier name="modChopperBraceletTM" installable_tags="armorHands" modifier_tags="" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="modChopperBraceletTM"/>
+		<property name="DescriptionKey" value="modChopperBraceletTMDesc"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="UnlockedBy" value="modChopperBraceletTMSchematic"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods,Moddet"/>
+		<property name="EconomicValue" value="100"/>
+		<effect_group tiered="false">
+			<passive_effect name="AttributeLevel" tags="attFortitude" operation="base_add" value="1"/>
+		</effect_group>
+	</item_modifier>
+		
+	<item_modifier name="modJordanBraceletTM" installable_tags="armorHands" modifier_tags="" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="modJordanBraceletTM"/>
+		<property name="DescriptionKey" value="modJordanBraceletTMDesc"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="UnlockedBy" value="modJordanBraceletTMSchematic"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods,Moddet"/>
+		<property name="EconomicValue" value="100"/>
+		<effect_group tiered="false">
+			<passive_effect name="AttributeLevel" tags="attAgility" operation="base_add" value="1"/>
+		</effect_group>
+	</item_modifier>
+		
+	<item_modifier name="modUchihaBraceletTM" installable_tags="armorHands" modifier_tags="" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="modUchihaBraceletTM"/>
+		<property name="DescriptionKey" value="modUchihaBraceletTMDesc"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="UnlockedBy" value="modUchihaBraceletTMSchematic"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods,Moddet"/>
+		<property name="EconomicValue" value="100"/>
+		<effect_group tiered="false">
+			<passive_effect name="AttributeLevel" tags="attIntellect" operation="base_add" value="1"/>
+		</effect_group>
+	</item_modifier>
+		
+	<item_modifier name="modSilverBraceletTM" installable_tags="armorHands" modifier_tags="" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="modSilverBraceletTM"/>
+		<property name="DescriptionKey" value="modSilverBraceletTMDesc"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="UnlockedBy" value="modSilverBraceletTMSchematic"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods,Moddet"/>
+		<property name="EconomicValue" value="100"/>
+		<effect_group tiered="false">
+			<passive_effect name="LootGamestage" operation="base_add" value="20"/>
+		</effect_group>
+	</item_modifier>
+		
+	<item_modifier name="modGoldBraceletTM" installable_tags="armorHands" modifier_tags="" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="modGoldBraceletTM"/>
+		<property name="DescriptionKey" value="modGoldBraceletTMDesc"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="UnlockedBy" value="modGoldBraceletTMSchematic"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods,Moddet"/>
+		<property name="EconomicValue" value="100"/>
+		<effect_group tiered="false">
+			<passive_effect name="LootGamestage" operation="base_add" value="60"/>
+		</effect_group>
+	</item_modifier>
+		
+	<item_modifier name="modRubyBraceletTM" installable_tags="armorHands" modifier_tags="" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="modRubyBraceletTM"/>
+		<property name="DescriptionKey" value="modRubyBraceletTMDesc"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="UnlockedBy" value="modRubyBraceletTMSchematic"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods,Moddet"/>
+		<property name="EconomicValue" value="100"/>
+		<effect_group tiered="false">
+			<passive_effect name="LootGamestage" operation="base_add" value="150"/>
+		</effect_group>
+	</item_modifier>
+		
+	<item_modifier name="modObserverHatTM" installable_tags="armorHead" modifier_tags="" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="modObserverHatTM"/>
+		<property name="DescriptionKey" value="modObserverHatTMDesc"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="UnlockedBy" value="modObserverHatTMSchematic"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods,Moddet"/>
+		<property name="EconomicValue" value="100"/>
+		<effect_group tiered="false">
+			<passive_effect name="LootGamestage" operation="base_add" value="75"/>
+		</effect_group>
+	</item_modifier>
+		
+	<item_modifier name="modSonicShoesTM" installable_tags="armorFeet" modifier_tags="" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="modSonicShoesTM"/>
+		<property name="DescriptionKey" value="modSonicShoesTMDesc"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="UnlockedBy" value="modSonicShoesTMSchematic"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods,Moddet"/>
+		<property name="EconomicValue" value="100"/>
+		<effect_group tiered="false">
+			<passive_effect name="RunSpeed" operation="perc_add" value=".2"/>
+			<display_value name="dRunSpeed" value=".2"/>
+		</effect_group>
+		<effect_group tiered="false">
+		    <passive_effect name="StaminaChangeOT" operation="perc_add" value=".2" tags="running"/>
+		    <display_value name="dStaminaRegen" value=".2"/>
+		</effect_group>
+	</item_modifier>		
+		
+		
+	</append>
+
+	
+	
+</raiz>
+
+	
+
