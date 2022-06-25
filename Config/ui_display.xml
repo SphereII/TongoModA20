@@ -1,0 +1,43 @@
+<raiz>
+
+
+	<!-- CRAFTING LAYERS FROM NEW MACHINES-->
+	
+	<append xpath="/ui_display_info/crafting_category_display">
+
+		<crafting_category_list display_type="workingMakina">
+			<!-- NOTHING -->
+		</crafting_category_list>
+
+		<crafting_category_list display_type="workingLibros">
+			<!-- NOTHING -->
+		</crafting_category_list>
+
+		<crafting_category_list display_type="workingDysmantle">
+			<crafting_category name="Muni" icon="ui_game_symbol_knife" display_name="lblMuniDysmantle" />
+			<crafting_category name="Partes" icon="ui_game_symbol_tool" display_name="lblPartsDysmantle" />
+			<crafting_category name="Moddet" icon="ui_game_symbol_assemble" display_name="lblModdetDysmantle" />
+			<crafting_category name="Quimics" icon="ui_game_symbol_science" display_name="lblChemistryDysmantle" />
+		</crafting_category_list>
+
+		<crafting_category_list display_type="workingSemillas">
+			<!-- NOTHING -->
+		</crafting_category_list>
+
+		<crafting_category_list display_type="workingAutominerT0">
+			<!-- NOTHING -->
+		</crafting_category_list>
+
+		<crafting_category_list display_type="workingOven">
+			<crafting_category name="Ycanfood" icon="ui_game_symbol_campfire" display_name="lblYcanfoodOven" />
+			<crafting_category name="Ncanfood" icon="ui_game_symbol_fork" display_name="lblNcanfoodOven" />
+			<crafting_category name="Ochemi" icon="ui_game_symbol_science" display_name="lblOchemiOven" />
+		</crafting_category_list>
+
+		<crafting_category_list display_type="workingAutominerADV">
+			<!-- NOTHING -->
+		</crafting_category_list>
+
+	</append>
+
+</raiz>
