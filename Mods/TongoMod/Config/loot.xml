@@ -1,0 +1,287 @@
+<raiz>
+
+
+	<!-- REMOVE CORN FROM TOILET -->
+	<remove xpath="/lootcontainers/lootgroup[@name='groupToilet02']/item[@name='plantedCorn1']"/>
+
+	
+	<!-- INCLUDE BLUE PAPER IN LOOT -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupFoodTrash']">
+		<item name="resourceBluePaper" count="1,2" loot_prob_template="medLow"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='booksAllScaled']">
+		<item name="resourceBluePaper" count="1" loot_prob_template="high"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralCommon']">
+		<item name="resourceBluePaper" count="1,2" loot_prob_template="med"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralRare']">
+		<item name="resourceBluePaper" count="1,2" loot_prob_template="med"/>
+	</append>
+
+	
+	<!-- INCREASE EGGS IN BIRDNEST -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupBirdNest02']">
+		<item name="foodEgg" count="1,2" loot_prob_template="high"/>
+	</append>
+
+	
+	<!-- INCLUDE SPECIAL ITEMS IN LOOT GROUP -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupMoPower01']">
+		<item name="itemKryptonite" count="1" loot_prob_template="med"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupPassNGas01']">
+		<item name="itemFluxCapacitor" count="1" loot_prob_template="med"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsMedLow']">
+		<item name="itemLonginusSpear" count="1" loot_prob_template="med"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupWorkingStiffs01']">
+		<item name="itemSonicScrewdiver" count="1" loot_prob_template="med"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='booksAllScaled']">
+		<item name="itemDonQuixote" count="1" loot_prob_template="med"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsMedLow']">
+		<item name="meleeWpnSpikedClub" count="1" loot_prob_template="veryLow"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupWorkingStiffs01']">
+		<item name="workingAutominerADV" count="1" loot_prob_template="veryLow"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralRare']">
+		<item name="meleeWpnSpikedClubSchematic" count="1" loot_prob_template="veryLow"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralRare']">
+		<item name="workingAutominerADVSchematic" count="1" loot_prob_template="veryLow"/>
+	</append>
+
+	
+	<!-- ADJUST TOILED LOOT -->
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupToilet01']">
+		<item name="drinkJarRiverWater" count="1" loot_prob_template="high"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupToilet01']">
+		<item name="resourceTurd" count="1,2" loot_prob_template="med"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupToilet02']">
+		<item name="drinkJarRiverWater" count="1" loot_prob_template="high"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupToilet02']">
+		<item name="gunHandgunT1Pistol" count="1" loot_prob_template="med"/> 
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupToilet02']">
+		<item name="resourcePaper" count="1,3" loot_prob_template="high"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupToilet02']">
+		<item name="meleeWpnBladeT1HuntingKnife" count="1" loot_prob_template="med"/> 
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupToilet02']">
+		<item name="resourceTurd" count="1,2" loot_prob_template="med"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupToilet']">
+		<item group="groupToilet02" loot_prob_template="med" force_prob="true"/>
+		<item name="resourceTurd" count="1,2" loot_prob_template="medLow"/>
+	</append>
+
+
+	<!-- INCREASED LOOT FOR AIRDROP, ZPACK AND TREASURES -->
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupAirDrop']">
+		<item group="groupAirDrop01" count="1,2"/>
+		<item group="groupAirDrop02" count="1,2"/>
+		<item group="groupAirDrop03" loot_prob_template="high" force_prob="true"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupZpackReg']">
+		<item group="groupAmmoMedium" count="3"/>
+		<item group="groupZpackReg01" count="3"/>
+		<item group="groupZpackReg02" count="2"/>
+		<item group="groupZpackReg03" loot_prob_template="high" force_prob="true"/>
+		<item name="resourceBluePaper" count="1,2" loot_prob_template="med"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupZpackStrong']">
+		<item group="groupAmmoLarge" count="3"/>
+		<item group="groupZpackStrong01" count="3"/>
+		<item group="groupZpackStrong02" count="2"/>
+		<item group="groupZpackStrong03" loot_prob_template="high" force_prob="true"/>
+		<item name="resourceBluePaper" count="2,5" loot_prob_template="med"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupZpackBoss']">
+		<item group="groupAmmoLarge" count="3"/>
+		<item group="groupZpackBoss01" count="3"/>
+		<item group="groupZpackBoss02" count="2"/>
+		<item group="groupZpackBoss03" loot_prob_template="high" force_prob="true"/>
+		<item name="resourceBluePaper" count="3,8" loot_prob_template="med"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupBuriedTreasure']">
+		<item group="groupValuablesExtraLarge" count="2,4"/>
+		<item group="groupAmmoPileLarge" count="3,5"/>
+		<item name="resourceBluePaper" count="5,10" loot_prob_template="med"/>
+	</append>
+
+
+	<!-- FOOD LOOT -->
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestMedical']">
+		<item name="foodSugarTM" count="1,3" loot_prob_template="med"/>
+		<item name="foodCookingOilTM" count="1,2" loot_prob_template="med"/>
+		<item name="foodPastaBaseTM" count="1,2" loot_prob_template="med"/>
+		<item name="foodPastaMushroomsTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodStewBeefTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodStewLambTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodStewChickenTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodStewChiliTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodStewShamTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodSoupMisoTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodSoupStockTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodSoupChickenTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodPearsCakeTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodPeasHamTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodSalmonTacoTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodTunaBreadTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodExtraCatTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodExtraDogTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodPastaYuccaTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodPastaPotatoTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodPastaPumpkinTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodSteakPotatoTM" count="1" loot_prob_template="medLow"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupMedicalHighLow']">
+		<item name="foodSugarTM" count="1,3" loot_prob_template="med"/>
+		<item name="foodCookingOilTM" count="1,2" loot_prob_template="med"/>
+		<item name="foodPastaBaseTM" count="1,2" loot_prob_template="med"/>
+		<item name="foodPastaMushroomsTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodStewBeefTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodStewLambTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodStewChickenTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodStewChiliTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodStewShamTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodSoupMisoTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodSoupStockTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodSoupChickenTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodPearsCakeTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodPeasHamTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodSalmonTacoTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodTunaBreadTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodExtraCatTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodExtraDogTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodPastaYuccaTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodPastaPotatoTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodPastaPumpkinTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodSteakPotatoTM" count="1" loot_prob_template="medLow"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupFoodRare']">
+		<item name="foodSugarTM" count="1,3" loot_prob_template="med"/>
+		<item name="foodCookingOilTM" count="1,2" loot_prob_template="med"/>
+		<item name="foodPastaBaseTM" count="1,2" loot_prob_template="med"/>
+		<item name="foodPastaMushroomsTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodStewBeefTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodStewLambTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodStewChickenTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodStewChiliTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodStewShamTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodSoupMisoTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodSoupStockTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodSoupChickenTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodPearsCakeTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodPeasHamTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodSalmonTacoTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodTunaBreadTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodExtraCatTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodExtraDogTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodPastaYuccaTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodPastaPotatoTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodPastaPumpkinTM" count="1" loot_prob_template="medLow"/>
+		<item name="foodSteakPotatoTM" count="1" loot_prob_template="medLow"/>
+	</append>
+
+
+	<!-- MEDIC & QUIMIC -->
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupMedicalCommon']">
+		<item name="resourceTallowTM" count="1,5" loot_prob_template="low"/>
+		<item name="resourceBiomassTM" count="1,2" loot_prob_template="low"/>
+		<item name="medicalAlcoholTM" count="1,2" loot_prob_template="medLow"/>
+		<item name="resourceBioFuelTM" count="1,2" loot_prob_template="veryLow"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupMedicalUncommon']">
+		<item name="resourceTallowTM" count="1,5" loot_prob_template="low"/>
+		<item name="resourceBiomassTM" count="1,2" loot_prob_template="low"/>
+		<item name="medicalAlcoholTM" count="1,2" loot_prob_template="medLow"/>
+		<item name="resourceBioFuelTM" count="1,2" loot_prob_template="veryLow"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupMedicalRare']">
+		<item name="resourceTallowTM" count="1,5" loot_prob_template="med"/>
+		<item name="resourceBiomassTM" count="1,2" loot_prob_template="medLow"/>
+		<item name="medicalAlcoholTM" count="1,2" loot_prob_template="med"/>
+		<item name="resourceBioFuelTM" count="1,2" loot_prob_template="medLow"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupChem01']">
+		<item name="resourceTallowTM" count="1,5" loot_prob_template="med"/>
+		<item name="resourceBiomassTM" count="1,2" loot_prob_template="medLow"/>
+		<item name="medicalAlcoholTM" count="1,2" loot_prob_template="med"/>
+		<item name="resourceBioFuelTM" count="1,2" loot_prob_template="medLow"/>
+	</append>
+
+
+	<!-- RECEIPES MODS (TONGOMOD) -->
+
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralRare']">
+		<item name="modSniperwolfBraceletTMSchematic" count="1" loot_prob_template="med"/>
+		<item name="modRagnarBraceletTMSchematic" count="1" loot_prob_template="med"/>
+		<item name="modChopperBraceletTMSchematic" count="1" loot_prob_template="med"/>
+		<item name="modJordanBraceletTMSchematic" count="1" loot_prob_template="med"/>
+		<item name="modUchihaBraceletTMSchematic" count="1" loot_prob_template="med"/>
+		<item name="modSilverBraceletTMSchematic" count="1" loot_prob_template="med"/>
+		<item name="modGoldBraceletTMSchematic" count="1" loot_prob_template="medLow"/>
+		<item name="modRubyBraceletTMSchematic" count="1" loot_prob_template="low"/>
+		<item name="modObserverHatTMSchematic" count="1" loot_prob_template="medLow"/>
+		<item name="modSonicShoesTMSchematic" count="1" loot_prob_template="medLow"/>
+	</append>
+
+	
+	<!-- MODS LOOT -->
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupArmorModsScaled']">
+		<item name="modSniperwolfBraceletTM" count="1" loot_prob_template="medLow"/>
+		<item name="modRagnarBraceletTM" count="1" loot_prob_template="medLow"/>
+		<item name="modChopperBraceletTM" count="1" loot_prob_template="medLow"/>
+		<item name="modJordanBraceletTM" count="1" loot_prob_template="medLow"/>
+		<item name="modUchihaBraceletTM" count="1" loot_prob_template="medLow"/>
+		<item name="modSilverBraceletTM" count="1" loot_prob_template="medLow"/>
+		<item name="modGoldBraceletTM" count="1" loot_prob_template="low"/>
+		<item name="modRubyBraceletTM" count="1" loot_prob_template="veryLow"/>
+		<item name="modObserverHatTM" count="1" loot_prob_template="low"/>
+		<item name="modSonicShoesTM" count="1" loot_prob_template="low"/>
+	</append>
+	
+
+
+</raiz>
