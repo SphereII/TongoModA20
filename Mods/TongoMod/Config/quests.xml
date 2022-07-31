@@ -722,7 +722,7 @@
 		<objective type="FetchKeep" id="drugSteroids" value="1" />
 		<objective type="FetchKeep" id="drugRecog" value="1" />
 
-		<reward type="Item" id="cntShippingCrateLabEquipment" value="33"/>
+		<reward type="Item" id="cntShippingCrateLabEquipment" value="3"/>
 		<reward type="Item" id="casinoCoin" value="50"/>
 		<reward type="Exp" value="100"/>
 		<reward type="Quest" id="quest_Medic5"/>
@@ -904,13 +904,13 @@
 		<objective type="ZombieKill" value="15" phase="1"/>
 		<requirement type="Holding" id="gunHandgunT0PipePistol" phase="1"/>
 
-		<objective type="ZombieKill" value="15" phase="2"/>
+		<objective type="ZombieKill" value="10" phase="2"/>
 		<requirement type="Holding" id="gunShotgunT0PipeShotgun" phase="2"/>
 
-		<objective type="ZombieKill" value="15" phase="3"/>
+		<objective type="ZombieKill" value="10" phase="3"/>
 		<requirement type="Holding" id="gunRifleT0PipeRifle" phase="3"/>
 
-		<objective type="ZombieKill" value="15" phase="4"/>
+		<objective type="ZombieKill" value="30" phase="4"/>
 		<requirement type="Holding" id="gunMGT0PipeMachineGun" phase="4"/>
 		
 		<reward type="Item" id="gunHandgunT1PistolSchematic" value="1"/>
@@ -935,7 +935,7 @@
 		<property name="difficulty" value="hard"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="ZombieKill" value="20" phase="1"/>
+		<objective type="ZombieKill" value="30" phase="1"/>
 		<requirement type="Holding" id="gunHandgunT1Pistol" phase="1"/>
 
 		<objective type="ZombieKill" value="20" phase="2"/>
@@ -944,14 +944,15 @@
 		<objective type="ZombieKill" value="20" phase="3"/>
 		<requirement type="Holding" id="gunRifleT1HuntingRifle" phase="3"/>
 
-		<objective type="ZombieKill" value="20" phase="4"/>
+		<objective type="ZombieKill" value="50" phase="4"/>
 		<requirement type="Holding" id="gunMGT1AK47" phase="4"/>
-		
+
+		<reward type="Item" id="meleeWpnSpikedClubSchematic" value="1" chainreward="true"/>
 		<reward type="Item" id="thrownAmmoPipeBombSchematic" value="1"/>
 		<reward type="Item" id="thrownGrenadeSchematic" value="1"/>
 		<reward type="Item" id="thrownGrenadeContactSchematic" value="1"/>
 		<reward type="Item" id="bookGreatHeistTimedCharge" value="1"/>
-		<reward type="Item" id="resourceGunPowderBundle" value="10"/>
+		<reward type="Item" id="resourceGunPowderBundle" value="3"/>
 		<reward type="Item" id="casinoCoin" value="800"/>
 		<reward type="Exp" value="1600"/>
 		<reward type="Quest" id="quest_Soldier4"/>
@@ -970,10 +971,10 @@
 		<objective type="ZombieKill" value="30" phase="1"/>
 		<requirement type="Holding" id="thrownAmmoPipeBomb" phase="1"/>
 
-		<objective type="ZombieKill" value="30" phase="2"/>
+		<objective type="ZombieKill" value="40" phase="2"/>
 		<requirement type="Holding" id="thrownGrenade" phase="2"/>
 
-		<objective type="ZombieKill" value="30" phase="3"/>
+		<objective type="ZombieKill" value="40" phase="3"/>
 		<requirement type="Holding" id="thrownGrenadeContact" phase="3"/>
 
 		<objective type="ZombieKill" value="30" phase="4"/>
@@ -997,12 +998,12 @@
 		<property name="difficulty" value="insane"/>
 		<property name="shareable" value="false"/>
 
-		<objective type="ZombieKill" id="zombieFatCop" value="10" phase="1"/>
-		<objective type="ZombieKill" id="zombieMutated" value="10" phase="2"/>
+		<objective type="ZombieKill" id="zombieFatCopFeral" value="5" phase="1"/>
+		<objective type="ZombieKill" id="zombieMutatedFeral" value="5" phase="2"/>
 		<objective type="ZombieKill" id="zombieWightFeral" value="5" phase="3"/>
 		<objective type="AnimalKill" id="animalZombieBear" value="5" phase="4"/>
 		
-		<reward type="Item" id="meleeWpnSpikedClubSchematic" value="1" chainreward="true"/>
+		
 		<reward type="Item" id="cntShippingCrateHero" value="10" chainreward="true"/>	
 		<reward type="Item" id="casinoCoin" value="5000" chainreward="true"/>
 		<reward type="Exp" value="10000" chainreward="true"/>

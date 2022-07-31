@@ -281,6 +281,15 @@
 		<item name="modObserverHatTM" count="1" loot_prob_template="low"/>
 		<item name="modSonicShoesTM" count="1" loot_prob_template="low"/>
 	</append>
+
+
+
+
+	<!-- INCLUDES SPLIKEDCLUB INTO QUEST REWARDS -->
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestWeaponsMeleeT2']">
+		<item name="meleeWpnSpikedClub"/>
+	</append>
 	
 
 

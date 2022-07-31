@@ -73,7 +73,7 @@
 			<ingredient name="itemSonicScrewdiver" count="1"/>
 		</recipe>
 
-		<recipe name="meleeWpnSpikedClub" count="1" craft_area="MKDysmantle" tags="learnable,workingDysmantle">
+		<recipe name="meleeWpnSpikedClub" count="1" craft_area="MKDysmantle" tags="learnable,workingDysmantle,perkPummelPete">
 			<ingredient name="meleeWpnClubT0WoodenClub" count="1"/>
 			<ingredient name="resourceGlue" count="10"/>
 			<ingredient name="itemSonicScrewdiver" count="1"/>

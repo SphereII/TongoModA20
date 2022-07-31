@@ -425,7 +425,7 @@
 			<drop event="Destroy" name="resourceMechanicalParts" count="10" prob="1"/>
 			<drop event="Fall" name="scrapMetalPile" count="1" prob="1" stick_chance="1"/>
 
-			<property name="Group" value="Building,advBuilding"/>
+			<property name="Group" value="Building,advBuilding,Quimics"/>
 			<property name="EconomicValue" value="3000"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="true"/>
